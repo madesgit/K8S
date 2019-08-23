@@ -4,9 +4,8 @@ metadata:
   - name: myapp-pod
     labels:
       app: myapp
-      type: frontend
 spec:
-    continers:
-      - name: myimage
-        image: nginx
+  containers:
+    - name: myimage
+      image: nginx
 
